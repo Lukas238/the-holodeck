@@ -2,9 +2,13 @@
   "meta": {
     "username": "Lukas238",
     "repositoryName": "the-holodeck",
-    "branch": "gh-pages"
+    "branch": "master"
+  },"site":{
+  	"title":"The Holodeck",
+  	"logo":"http://i.imgur.com/KBabik9.jpg",
+  	"url":"https://Lukas238.github.io/the-holodeck"
   },
   "theme": {
-    "name": "Casper"
+    "name": "ghostium"
   }
 }
