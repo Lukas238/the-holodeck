@@ -2,13 +2,11 @@
   "meta": {
     "username": "Lukas238",
     "repositoryName": "the-holodeck",
-    "branch": "master"
-  },"site":{
+    "branch": "gh-pages"
+  },
+  "site":{
   	"title":"The Holodeck",
   	"logo":"http://i.imgur.com/KBabik9.jpg",
   	"url":"https://Lukas238.github.io/the-holodeck"
-  },
-  "theme": {
-    "name": "ichi"
   }
 }
