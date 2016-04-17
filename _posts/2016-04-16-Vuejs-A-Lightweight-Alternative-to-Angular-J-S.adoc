@@ -2,7 +2,6 @@
 :hp-tags: #holodeck, vue.js, framework, frontend, reactive
 
 image::https://vuejs.org/images/logo.png[ Vue.js,180, link="https://vuejs.org/"]
-## Vue.js
 
 
 **Vue.js** es una libreria de apenas **24kb** y sin dependencias (puro javascript), especialmente pensada para FrontEnd, como una alternativa a Angulas.js.
