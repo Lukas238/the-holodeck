@@ -1,0 +1,38 @@
+= Vue.js: A Lightweight Alternative to AngularJS
+:hp-tags: #holodeck, vue.js, framework, frontend, reactive
+
+NOTE: Holodeck program id: 20160417.1500
+
+image::https://vuejs.org/images/logo.png[ Vue.js,180, link="https://vuejs.org/"]
+## Vue.js
+
+
+**Vue.js** es una libreria de apenas **24kb** y sin dependencias(puro javascript), especialmente pensada para FrontEnd, como una alternativa a Angulas.js.
+
+Basicamente nos permite implementar _reactividad_ entre los elementos del front, e incluso con objetos de datos (como un listado en JSON).
+
+**Características:**
+
+- Extendable Data bindings
+- Plain JS object models
+- APIs that simply make sense
+- Building UIs by composing components
+- Mixing & matching small libraries
+
+
+### 10 Second Example
+
++++
+<p data-height="199" data-theme-id="dark" data-slug-hash="PNeQzB" data-default-tab="js,result" data-user="Lukas238" data-embed-version="2" class="codepen">See the Pen <a href="https://codepen.io/Lukas238/pen/PNeQzB/">Vue.js: Basic example</a> by Lucas Dasso (<a href="http://codepen.io/Lukas238">@Lukas238</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
++++
+
+
+---
+
+## Links
+
+- link:https://vuejs.org/[Vue.js home page]
+- link:https://scotch.io/tutorials/build-an-app-with-vue-js-a-lightweight-alternative-to-angularjs[Build an App with Vue.js]
+- link:https://github.com/vuejs/awesome-vue[Awesome Vue.js: Ejemplos de Vue.js]
+- link:https://github.com/oneuijs/You-Dont-Need-jQuery[You Don't Need jQuery]
