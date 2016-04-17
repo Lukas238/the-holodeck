@@ -36,4 +36,4 @@ Basicamente nos permite implementar _reactividad_ entre los elementos del front,
 
 
 
-NOTE: Holodeck program ID: 20160417.1700
+NOTE: Holodeck program ID: link:https://plus.google.com/events/clnk8urs82i7hhdsuibeslbpofk?hl=en[20160417.1700]
