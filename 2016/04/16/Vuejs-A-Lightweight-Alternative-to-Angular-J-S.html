@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <title>Vue.js: A Lightweight Alternative to AngularJS - The Holodeck</title>
+
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <meta name="description" content="">
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Vue.js: A Lightweight Alternative to AngularJS">
+    <meta name="twitter:description" content="">
+
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Vue.js: A Lightweight Alternative to AngularJS">
+    <meta property="og:description" content="">
+
+    <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon">
+    <link href="/apple-touch-icon-precomposed.png" rel="apple-touch-icon">
+
+    <link rel="stylesheet" type="text/css" href="//Lukas238.github.io/the-holodeck/themes/uno/assets/css/uno.css?v=1.0.0" />
+
+    <link rel="canonical" href="https://Lukas238.github.io/the-holodeck/2016/04/16/Vuejs-A-Lightweight-Alternative-to-Angular-J-S.html" />
+    
+    <meta property="og:site_name" content="The Holodeck" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Vue.js: A Lightweight Alternative to AngularJS" />
+    <meta property="og:description" content="Holodeck program id: 20160417.1500 Vue.js Vue.js es una libreria de apenas 24kb y sin dependencias(puro javascript), especialmente pensada para FrontEnd, como una alternativa a Angulas.js. Basicamente nos permite implementar reactividad entre los elementos del front,..." />
+    <meta property="og:url" content="https://Lukas238.github.io/the-holodeck/2016/04/16/Vuejs-A-Lightweight-Alternative-to-Angular-J-S.html" />
+    <meta property="article:published_time" content="2016-04-16T03:00:00.000Z" />
+    <meta property="article:modified_time" content="2016-04-17T16:07:27.575Z" />
+    <meta property="article:tag" content="#holodeck" />
+    <meta property="article:tag" content="vue.js" />
+    <meta property="article:tag" content="framework" />
+    <meta property="article:tag" content="frontend" />
+    <meta property="article:tag" content="reactive" />
+    
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Vue.js: A Lightweight Alternative to AngularJS" />
+    <meta name="twitter:description" content="Holodeck program id: 20160417.1500 Vue.js Vue.js es una libreria de apenas 24kb y sin dependencias(puro javascript), especialmente pensada para FrontEnd, como una alternativa a Angulas.js. Basicamente nos permite implementar reactividad entre los elementos del front,..." />
+    <meta name="twitter:url" content="https://Lukas238.github.io/the-holodeck/2016/04/16/Vuejs-A-Lightweight-Alternative-to-Angular-J-S.html" />
+    
+    <script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "Article",
+    "publisher": "The Holodeck",
+    "author": {
+        "@type": "Person",
+        "name": "Lucas Dasso",
+        "image": "https://avatars.githubusercontent.com/u/1334679?v=3",
+        "url": "undefined/author/undefined",
+        "sameAs": "http://www.c238.com.ar"
+    },
+    "headline": "Vue.js: A Lightweight Alternative to AngularJS",
+    "url": "https://Lukas238.github.io/the-holodeck/2016/04/16/Vuejs-A-Lightweight-Alternative-to-Angular-J-S.html",
+    "datePublished": "2016-04-16T03:00:00.000Z",
+    "dateModified": "2016-04-17T16:07:27.575Z",
+    "keywords": "#holodeck,  vue.js,  framework,  frontend,  reactive",
+    "description": "Holodeck program id: 20160417.1500 Vue.js Vue.js es una libreria de apenas 24kb y sin dependencias(puro javascript), especialmente pensada para FrontEnd, como una alternativa a Angulas.js. Basicamente nos permite implementar reactividad entre los elementos del front,..."
+}
+    </script>
+
+    <meta name="generator" content="Ghost ?" />
+    <link rel="alternate" type="application/rss+xml" title="The Holodeck" href="https://Lukas238.github.io/the-holodeck/rss" />
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/default.min.css">
+
+</head>
+<body class="post-template tag-holodeck tag-vuejs tag-framework tag-frontend tag-reactive no-js">
+
+    <span class="mobile btn-mobile-menu">
+        <i class="icon icon-list btn-mobile-menu__icon"></i>
+        <i class="icon icon-x-circle btn-mobile-close__icon hidden"></i>
+    </span>
+
+    <header class="panel-cover panel-cover--collapsed " >
+      <div class="panel-main">
+    
+        <div class="panel-main__inner panel-inverted">
+        <div class="panel-main__content">
+    
+            <a href="https://Lukas238.github.io/the-holodeck" title="link to homepage for The Holodeck"><img src="http://i.imgur.com/KBabik9.jpg" width="180" alt="The Holodeck logo" class="panel-cover__logo logo" /></a>
+            <h1 class="panel-cover__title panel-title"><a href="https://Lukas238.github.io/the-holodeck" title="link to homepage for The Holodeck">The Holodeck</a></h1>
+            <hr class="panel-cover__divider" />
+            <p class="panel-cover__description"></p>
+            <hr class="panel-cover__divider panel-cover__divider--secondary" />
+    
+            <div class="navigation-wrapper">
+    
+              <nav class="cover-navigation cover-navigation--primary">
+                <ul class="navigation">
+                  <li class="navigation__item"><a href="https://Lukas238.github.io/the-holodeck/#blog" title="link to The Holodeck blog" class="blog-button">Blog</a></li>
+                </ul>
+              </nav>
+    
+              
+              
+              <nav class="cover-navigation navigation--social">
+                <ul class="navigation">
+              
+              
+                  <!-- Twitter -->
+                  <li class="navigation__item">
+                    <a href="https://twitter.com/lucasdasso" title="Twitter account">
+                      <i class='icon icon-social-twitter'></i>
+                      <span class="label">Twitter</span>
+                    </a>
+                  </li>
+              
+              
+                  <!-- Github -->
+                  <li class="navigation__item">
+                    <a href="https://github.com/Lukas238" title="Github account">
+                      <i class='icon icon-social-github'></i>
+                      <span class="label">Github</span>
+                    </a>
+                  </li>
+                  </li>
+              
+              
+              
+              
+              
+              
+                </ul>
+              </nav>
+              
+    
+            </div>
+    
+          </div>
+    
+        </div>
+    
+        <div class="panel-cover--overlay"></div>
+      </div>
+    </header>
+
+    <div class="content-wrapper">
+        <div class="content-wrapper__inner">
+            
+
+  <article class="post-container post-container--single">
+
+    <header class="post-header">
+      <div class="post-meta">
+        <time datetime="16 Apr 2016" class="post-meta__date date">16 Apr 2016</time> &#8226; <span class="post-meta__tags tags">on <a href="https://Lukas238.github.io/the-holodeck/tag/holodeck">#holodeck</a>, <a href="https://Lukas238.github.io/the-holodeck/tag/vuejs"> vue.js</a>, <a href="https://Lukas238.github.io/the-holodeck/tag/framework"> framework</a>, <a href="https://Lukas238.github.io/the-holodeck/tag/frontend"> frontend</a>, <a href="https://Lukas238.github.io/the-holodeck/tag/reactive"> reactive</a></span>
+        <span class="post-meta__author author"><img src="https://avatars.githubusercontent.com/u/1334679?v=3" alt="profile image for Lucas Dasso" class="avatar post-meta__avatar" /> by Lucas Dasso</span>
+      </div>
+      <h1 class="post-title">Vue.js: A Lightweight Alternative to AngularJS</h1>
+    </header>
+
+    <section class="post tag-holodeck tag-vuejs tag-framework tag-frontend tag-reactive">
+      <div id="preamble">
+<div class="sectionbody">
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+Holodeck program id: 20160417.1500
+</td>
+</tr>
+</table>
+</div>
+<div class="imageblock">
+<div class="content">
+<a class="image" href="https://vuejs.org/"><img src="https://vuejs.org/images/logo.png" alt="Vue.js" width="180"></a>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_vue_js">Vue.js</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p><strong>Vue.js</strong> es una libreria de apenas <strong>24kb</strong> y sin dependencias(puro javascript), especialmente pensada para FrontEnd, como una alternativa a Angulas.js.</p>
+</div>
+<div class="paragraph">
+<p>Basicamente nos permite implementar <em>reactividad</em> entre los elementos del front, e incluso con objetos de datos (como un listado en JSON).</p>
+</div>
+<div class="paragraph">
+<p><strong>Características:</strong></p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Extendable Data bindings</p>
+</li>
+<li>
+<p>Plain JS object models</p>
+</li>
+<li>
+<p>APIs that simply make sense</p>
+</li>
+<li>
+<p>Building UIs by composing components</p>
+</li>
+<li>
+<p>Mixing &amp; matching small libraries</p>
+</li>
+</ul>
+</div>
+<div class="sect2">
+<h3 id="_10_second_example">10 Second Example</h3>
+<div class="paragraph">
+<p>
+<p data-height="199" data-theme-id="dark" data-slug-hash="PNeQzB" data-default-tab="js,result" data-user="Lukas238" data-embed-version="2" class="codepen">See the Pen <a href="https://codepen.io/Lukas238/pen/PNeQzB/">Vue.js: Basic example</a> by Lucas Dasso (<a href="http://codepen.io/Lukas238">@Lukas238</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+</p>
+</div>
+<hr>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_links">Links</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://vuejs.org/">Vue.js home page</a></p>
+</li>
+<li>
+<p><a href="https://scotch.io/tutorials/build-an-app-with-vue-js-a-lightweight-alternative-to-angularjs">Build an App with Vue.js</a></p>
+</li>
+<li>
+<p><a href="https://github.com/vuejs/awesome-vue">Awesome Vue.js: Ejemplos de Vue.js</a></p>
+</li>
+<li>
+<p><a href="https://github.com/oneuijs/You-Dont-Need-jQuery">You Don&#8217;t Need jQuery</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+    </section>
+
+  </article>
+
+
+
+
+            <footer class="footer">
+                <span class="footer__copyright">&copy; 2016. All rights reserved.</span>
+                <span class="footer__copyright"><a href="http://uno.daleanthony.com" title="link to page for Uno Ghost theme">Uno theme</a> by <a href="http://daleanthony.com" title="link to website for Dale-Anthony">Dale-Anthony</a></span>
+                <span class="footer__copyright">Proudly published with <a href="http://hubpress.io" title="link to Hubpress website">Hubpress</a></span>
+            </footer>
+        </div>
+    </div>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js?v="></script> <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment-with-locales.min.js?v="></script> <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js?v="></script> 
+      <script type="text/javascript">
+        jQuery( document ).ready(function() {
+          // change date with ago
+          jQuery('ago.ago').each(function(){
+            var element = jQuery(this).parent();
+            element.html( moment(element.text()).fromNow());
+          });
+        });
+
+        hljs.initHighlightingOnLoad();      
+      </script>
+
+    <script type="text/javascript" src="//Lukas238.github.io/the-holodeck/themes/uno/assets/js/main.js?v=1.0.0"></script>
+    
+
+</body>
+</html>
