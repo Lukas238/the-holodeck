@@ -1,8 +1,6 @@
 = Vue.js: A Lightweight Alternative to AngularJS
 :hp-tags: #holodeck, vue.js, framework, frontend, reactive
 
-NOTE: Holodeck program id: 20160417.1500
-
 image::https://vuejs.org/images/logo.png[ Vue.js,180, link="https://vuejs.org/"]
 ## Vue.js
 
@@ -36,3 +34,7 @@ Basicamente nos permite implementar _reactividad_ entre los elementos del front,
 - link:https://scotch.io/tutorials/build-an-app-with-vue-js-a-lightweight-alternative-to-angularjs[Build an App with Vue.js]
 - link:https://github.com/vuejs/awesome-vue[Awesome Vue.js: Ejemplos de Vue.js]
 - link:https://github.com/oneuijs/You-Dont-Need-jQuery[You Don't Need jQuery]
+
+---
+
+NOTE: Holodeck program ID: 20160417.1500
