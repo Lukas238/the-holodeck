@@ -35,6 +35,6 @@ Basicamente nos permite implementar _reactividad_ entre los elementos del front,
 - link:https://github.com/vuejs/awesome-vue[Awesome Vue.js: Ejemplos de Vue.js]
 - link:https://github.com/oneuijs/You-Dont-Need-jQuery[You Don't Need jQuery]
 
----
 
-NOTE: Holodeck program ID: 20160417.1500
+
+NOTE: Holodeck program ID: 20160417.1700
