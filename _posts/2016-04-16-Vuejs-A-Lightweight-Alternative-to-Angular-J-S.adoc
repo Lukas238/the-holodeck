@@ -7,7 +7,7 @@ image::https://vuejs.org/images/logo.png[ Vue.js,180, link="https://vuejs.org/"]
 ## Vue.js
 
 
-**Vue.js** es una libreria de apenas **24kb** y sin dependencias(puro javascript), especialmente pensada para FrontEnd, como una alternativa a Angulas.js.
+**Vue.js** es una libreria de apenas **24kb** y sin dependencias (puro javascript), especialmente pensada para FrontEnd, como una alternativa a Angulas.js.
 
 Basicamente nos permite implementar _reactividad_ entre los elementos del front, e incluso con objetos de datos (como un listado en JSON).
 
