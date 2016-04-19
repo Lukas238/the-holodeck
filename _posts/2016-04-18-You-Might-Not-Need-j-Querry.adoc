@@ -1,8 +1,6 @@
 = You Might Not Need jQuerry
 :hp-tags: web-tools, javascript
 
-TIP: **Link**: http://youmightnotneedjquery.com/
-
 
 jQuery es excelente y ya nos acostumbramos a incluirlo casi por defecto en nuestros proyectos. Pero con los navegadores modernos se vuelve cada vez menos imprecindible.
 
@@ -17,3 +15,4 @@ Para _nosotros_ que estamos tan acostumbrados a usar jQuery que olvidamos el jav
 
 
 
+TIP: **Link**: http://youmightnotneedjquery.com/
