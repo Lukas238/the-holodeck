@@ -1,0 +1,19 @@
+= You Might Not Need jQuerry
+:hp-tags: web-tools, javascript
+
+TIP: **Link**: http://youmightnotneedjquery.com/
+
+
+jQuery es excelente y ya nos acostumbramos a incluirlo casi por defecto en nuestros proyectos. Pero con los navegadores modernos se vuelve cada vez menos imprecindible.
+
+Para _nosotros_ que estamos tan acostumbrados a usar jQuery que olvidamos el javascript puro, esta web nos permite  **buscar alternativas de javascript** puro a cualquier función de **jquery**.
+
+
+
+> jQuery and its cousins are great, and by all means use them if it makes it easier to develop your application.
+
+> If you're developing a library on the other hand, please take a moment to consider if you actually need jQuery as a dependency. Maybe you can include a few lines of utility code, and forgo the requirement. If you're only targeting more modern browsers, you might not need anything more than what the browser ships with.
+
+
+
+
